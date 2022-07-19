@@ -17,6 +17,7 @@ div, span{
     padding: 0;
     border: 0.1px solid rgba(87, 83, 83, .2);
     font-size: 18px;
+    border-radius: 0;
 }
 .num:hover{
     background-color: rgba(0, 0, 0, .35); 
@@ -33,7 +34,6 @@ div, span{
     height: 620px;
     border-radius: 15px;
     box-shadow: 1px 1px 40px rgba(0, 0, 0, .5);
-    /* background-color: rgba(247, 0, 0, 0.3); */
 }
 .zeroBtn{
     width: 180px;
@@ -54,9 +54,8 @@ div, span{
     padding: 0;
     background-color: rgba(0, 0, 0, 0);
     color: white;
-    /* display: block;
-    direction: rtl; */
 }
+
 .scoreboard{
     padding: 0;
     border: 0;
