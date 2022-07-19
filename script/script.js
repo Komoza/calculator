@@ -1,6 +1,6 @@
-var buffer = 0;
-var sing = 'none';
-var removeScreen = false;
+let buffer = 0;
+let sing = 'none';
+let removeScreen = false;
 
 function pressBtn(button) {
     let scoreboard = document.getElementById("scoreboardID")
